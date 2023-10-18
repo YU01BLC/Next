@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageコンポーネントSnapshot snapshot 1`] = `
+<DocumentFragment>
+  <h1>
+    Hello, Next.js!
+  </h1>
+</DocumentFragment>
+`;
+
+exports[`Pageコンポーネント表示確認 snapshot 1`] = `
+<DocumentFragment>
+  <h1>
+    Hello, Next.js!
+  </h1>
+</DocumentFragment>
+`;
