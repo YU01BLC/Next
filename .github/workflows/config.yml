@@ -1,0 +1,23 @@
+name: Next_CI/CD
+
+on:
+  pull_request:
+    branches:
+      - "*"
+  push:
+    branches:
+      - develop
+
+jobs:
+  run_test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run test
+        run: npm run test
