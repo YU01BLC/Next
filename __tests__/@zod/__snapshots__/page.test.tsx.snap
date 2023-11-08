@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@zod/Pageコンポーネントscreenshot snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root css-cv1rqq"
+  >
+    zod
+  </div>
+</DocumentFragment>
+`;
